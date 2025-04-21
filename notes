@@ -1,0 +1,42 @@
+# 🕵🏽‍♀SQL Murder Mystery: Reflections + Key Learnings
+
+Welcome to my case file! This project was a fun (and nerdy) blend of true crime vibes and SQL practice. Below are some of my learnings and takeaways from the investigation. 🧠💻🔍
+
+---
+
+## What I Solved
+
+In this SQL mystery challenge, I had to:
+- Investigate a **murder in SQL City**
+- Read **crime scene reports**
+- Interview **witnesses**
+- Cross-check **gym check-ins, licenses, and identities**
+- Use **SQL joins, filters, and logic** to find the culprit
+
+I solved the case by submitting the name **Jeremy Bowers** as the final answer.
+
+---
+
+## What I Learned
+
+- **Filtering & WHERE Clauses:** How to pinpoint the right data (crime type, date, city).
+- **JOINs (Inner & Left):** Critical for combining info across tables—like linking suspects with gym check-ins or license info.
+- **Subqueries:** Helped narrow down matching results when dealing with nested clues.
+- **Data Cleanliness:** Realized how important it is to clean and organize queries for reusability.
+- **SQL Logic = Detective Logic:** Tracking clues step-by-step felt just like building conditional logic in code.
+
+---
+
+## Query Stages Breakdown
+
+1. [01_intro_queries.sql](../queries/01_intro_queries.sql): Crime scene + witness details  
+2. [02_find_suspect.sql](../queries/02_find_suspect.sql): Witness interviews + gym records + license lookups  
+3. [03_final_solution.sql](../queries/03_final_solution.sql): Final answer + SQL insert to solution table  
+
+---
+
+## Final Thoughts
+
+This was one of the most fun SQL challenges I’ve done so far! It made learning **joins**, **filtering**, and **data exploration** so much more engaging. Also… I now believe every data analytics project should come with a little mystery. 🕯️
+
+Would 100% recommend to fellow data detectives! 🕵🏽‍♀️
