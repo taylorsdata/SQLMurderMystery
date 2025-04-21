@@ -1,4 +1,4 @@
--- 🔍 Step 1: From previous filtering, we found a suspect named Jeremy Bowers.
+-- 🔍 Step 6: From previous filtering, we found a suspect named Jeremy Bowers.
 -- Let’s gather all his info to confirm.
 
 SELECT p.name, p.id AS person_id, dl.plate_number, dl.car_make, dl.car_model
@@ -7,7 +7,7 @@ JOIN drivers_license dl ON p.license_id = dl.id
 WHERE p.name = 'Jeremy Bowers';
 -- ✅ This confirms Jeremy’s license and vehicle info.
 
--- 🔎 Step 2: Let’s look at his gym check-in, which the witness mentioned.
+-- 🔎 Step 7: Let’s look at his gym check-in, which the witness mentioned.
 -- Witness said the killer was at the gym on Jan 9 and is a gold member.
 
 SELECT g.membership_id, m.person_id, p.name, g.check_in_date, m.membership_status
