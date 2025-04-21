@@ -22,7 +22,7 @@ This project is based on the [SQL Murder Mystery](https://colab.research.google.
 - Using JOINs, filtering, and aggregation for investigation
 - The importance of storytelling in data!
 
-## 🖤 Bonus Vibes
+## 🖤 
 > Looks like the suspect forgot to DELETE their tracks… but I found the WHERE clause 😉
 
 XOXO,  
